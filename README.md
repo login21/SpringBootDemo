@@ -6,25 +6,25 @@ Database structure consideration.
 
 Farmer_detail
 ----------------------------------------
-farmer_id Integer
-Name String
-Address String
+farmer_id Integer,
+Name String,
+Address String,
 Email String
 
 Farm_detail
 ------------------------------------------
-farm_id Integer
-Address String
+farm_id Integer,
+Address String,
 farmer_id (ref key) Integer
 
 Order_detail
 -----------------------------------------
-order_id Integer
-farm_id
-farmer_id
-status
-duration
-startdate
-enddate
+order_id Integer,
+farm_id,
+farmer_id,
+status,
+duration,
+startdate,
+enddate,
 comments
 
